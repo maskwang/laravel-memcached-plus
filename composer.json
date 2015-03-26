@@ -1,12 +1,12 @@
 {
-  "name": "b3it/laravel-memcached-plus",
+  "name": "maskwang/laravel5-memcached-plus",
   "description": "Extends the built-in Laravel 5 Cache Memcached driver adding support for persistent connections, SASL and Memcached options.",
   "keywords": ["laravel", "memcached", "sasl", "persistent", "options", "memcachier", "memcachedcloud", "heroku", "cache"],
   "license": "MIT",
   "authors": [
     {
-      "name": "Tom Castleman",
-      "email": "tom.castleman@b3-it.com"
+      "name": "Mask Wang",
+      "email": "maskwnag.cn@gmail.com"
     }
   ],
   "require": {
@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "B3IT\\MemcachedPlus\\": ""
+      "maskwang\\MemcachedPlus\\": ""
     }
   },
   "minimum-stability": "dev"
