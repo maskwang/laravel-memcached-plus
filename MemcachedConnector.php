@@ -63,9 +63,11 @@ class MemcachedConnector
         if (!is_array($memcachedStatus)) {
             throw new RuntimeException("No Memcached servers added.");
         }
-        if (in_array('255.255.255', $memcachedStatus) && count(array_unique($memcachedStatus)) === 1) {
+
+        // Fixed: if add one server, should not throw this error
+        /*if (in_array('255.255.255', $memcachedStatus) && count(array_unique($memcachedStatus)) === 1) {
             throw new RuntimeException("Could not establish Memcached connection.");
-        }
+        }*/
 
         return $memcached;
     }
