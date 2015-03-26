@@ -59,10 +59,13 @@ class MemcachedConnector
             }
         }
 
+        // Fixed: 调用getVersion()后,执行memcached返回false bug
+        /*
         $memcachedStatus = $memcached->getVersion();
         if (!is_array($memcachedStatus)) {
             throw new RuntimeException("No Memcached servers added.");
         }
+        */
 
         // Fixed: if add one server, should not throw this error
         /*if (in_array('255.255.255', $memcachedStatus) && count(array_unique($memcachedStatus)) === 1) {
