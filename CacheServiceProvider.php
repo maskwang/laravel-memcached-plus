@@ -1,4 +1,4 @@
-<?php namespace B3IT\MemcachedPlus;
+<?php namespace MaskWang\MemcachedPlus;
 
 use Illuminate\Cache\CacheServiceProvider as IlluminateCacheServiceProvider;
 
