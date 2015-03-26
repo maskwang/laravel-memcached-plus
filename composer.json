@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "maskwang\\MemcachedPlus\\": ""
+      "MaskWang\\MemcachedPlus\\": ""
     }
   },
   "minimum-stability": "dev"

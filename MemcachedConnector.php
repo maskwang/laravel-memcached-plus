@@ -1,4 +1,4 @@
-<?php namespace B3IT\MemcachedPlus;
+<?php namespace MaskWang\MemcachedPlus;
 
 use Memcached;
 use RuntimeException;
